@@ -68,6 +68,11 @@ input{
     }
 
 }
+@media(max-width:600px){
+    input{
+        padding:10px   80px ;
+    }
+}
 @media(max-width:478px){
       input{
         margin-bottom: 10px;
