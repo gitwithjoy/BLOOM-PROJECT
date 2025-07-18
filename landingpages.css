@@ -142,7 +142,7 @@ h4{
 }
 @media(max-width:950px){
     h2{
-        padding-left: 345px;
+      display: none;
     }
 }
     
@@ -157,11 +157,47 @@ h4{
     gap: 2em;
     justify-content: center;
 }
-.mini-wrapper a{
+.mini-wrapper1 a{
     text-decoration: underline;
     color: white;
 }
-.mini-wrapper button{
+.mini-wrapper1 button{
+    background-color: black;
+    font-weight: 2.5em;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.mini-wrapper2 a{
+    text-decoration: underline;
+    color: white;
+}
+.mini-wrapper2 button{
+    background-color: black;
+    font-weight: 2.5em;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.mini-wrapper3 a{
+    text-decoration: underline;
+    color: white;
+}
+.mini-wrapper3 button{
+    background-color: black;
+    font-weight: 2.5em;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.mini-wrapper4 a{
+    text-decoration: underline;
+    color: white;
+}
+.mini-wrapper4 button{
     background-color: black;
     font-weight: 2.5em;
     color: white;
@@ -173,6 +209,22 @@ span{
     text-decoration: underline;
     color: blue;
 }
+@media(max-width:840px){
+    .footer-wrap{
+        gap: 1.5em;
+    }
+}
+@media(max-width:754pgitx){
+    .mini-wrapper4{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .footer-wrap{
+        display: grid;
+    }
+}
+
 
 
 
